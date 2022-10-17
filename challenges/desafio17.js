@@ -3,8 +3,8 @@ const totalProdutos = db.produtos.count();
 db.resumoProdutos.insertOne(
   {
     franquia: "McDonalds",
-    totalProdutos
-  }
+    totalProdutos,
+  },
 );
 
 db.resumoProdutos.find(
